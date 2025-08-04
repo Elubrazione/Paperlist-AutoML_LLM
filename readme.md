@@ -3,13 +3,15 @@
 <!-- omit in toc -->
 
 ## Contents
-- [Introduction](#introduction)
-- [Keywords Convention](#keywords-convention)
-- [Papers](#papers)
-  - [Survey](#survey)
-  - [System](#system)
-    - [FE](#fe)
-  - [BO](#bo)
+- [Paper List for AutoML \& LLM](#paper-list-for-automl--llm)
+  - [Contents](#contents)
+  - [Introduction](#introduction)
+    - [Keywords Convention](#keywords-convention)
+  - [Papers](#papers)
+    - [Survey](#survey)
+    - [System](#system)
+      - [FE](#fe)
+    - [BO](#bo)
 
 ## Introduction
 
@@ -44,5 +46,17 @@ This is a paper list (working in progress) about **AutoML and LLM**
 
    
 ### BO
-
-
+1. **Position: Leverage Foundational Models for Black-Box Optimization.** ![](https://img.shields.io/badge/position-DCE7F1),![](https://img.shields.io/badge/ICML2024-FAEFCA)
+   *Xingyou Song, Yingtao Tian, Robert Tjarko Lange, Chansoo Lee, Yujin Tang, Yutian Chen.* [[pdf](https://arxiv.org/abs/2405.03547)]
+2. **Large Language Models to Enhance Bayesian Optimization.** ![](https://img.shields.io/badge/LLAMBO-DCE7F1),![](https://img.shields.io/badge/ICLR2024-FAEFCA)
+   *Tennison Liu, Nicolás Astorga, Nabeel Seedat, Mihaela van der Schaar.* [[pdf](https://arxiv.org/abs/2402.03921)],[[project](https://github.com/tennisonliu/LLAMBO)]
+3. **Large Language Models as Optimizers.** ![](https://img.shields.io/badge/OPRO-DCE7F1),![](https://img.shields.io/badge/ICLR2024-FAEFCA)
+   *Chengrun Yang, Xuezhi Wang, Yifeng Lu, Hanxiao Liu, Quoc V. Le, Denny Zhou, Xinyun Chen (Google DeepMind).*[[pdf](https://arxiv.org/abs/2309.03409)],[[project](https://github.com/google-deepmind/opro)]
+4. **Searching For Optimal Solutions With LLMs Via Baysian Optimization.** ![](https://img.shields.io/badge/BOPRO-DCE7F1),![](https://img.shields.io/badge/ICLR2025-FAEFCA)
+   *Dhruv Agarwal, Manoj Ghuhan Arivazhagan, Rajarshi Das, Sandesh Swamy, Sopan Khosla, Rashmi Gangadharaiah.*[[pdf](https://openreview.net/forum?id=aVfDrl7xDV)]
+5. **Evolve Cost-aware Acquisition Functions Using Large Language Models.** ![](https://img.shields.io/badge/EvolCAF-DCE7F1),![](https://img.shields.io/badge/arxiv2024-FAEFCA)
+  *Yiming Yao, Fei Liu, Ji Cheng, Qingfu Zhang.* [[pdf](https://arxiv.org/abs/2404.16906)],[[project](https://github.com/FeiLiu36/EoH)]
+6. **A Sober Look at LLMs for Material Discovery-Are They Actually Good for Bayesian Optimization Over Molecules?** ![](https://img.shields.io/badge/lapeft_bayesopt-DCE7F1),![](https://img.shields.io/badge/NeurIPS2024-FAEFCA)
+   *Agustinus Kristiadi, Felix Strieth-Kalthoff, Marta Skreta, Pascal Poupart, Alán Aspuru-Guzik, Geoff Pleiss.* [[pdf](https://arxiv.org/abs/2402.05015)],[[project](https://github.com/wiseodd/lapeft-bayesopt)]
+7. **Active Learning with LLMs for Partially Observed and Cost-Aware Scenarios.** ![](https://img.shields.io/badge/&mu;POCA-DCE7F1),![](https://img.shields.io/badge/NeurIPS2024-FAEFCA)
+   *Yiming Yao, Fei Liu, Ji Cheng, Qingfu Zhang.*[[pdf](https://arxiv.org/abs/2404.16906)],[[project](https://github.com/vanderschaarlab/POCA)]
